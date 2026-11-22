@@ -25,3 +25,30 @@ output_files/
 nios_system.html
 nios_system.cmp
 nios_system.bsf
+
+# ==========================================
+# Nios II Software Build Tools for Eclipse
+# ==========================================
+# Промежуточные файлы компиляции
+software/**/obj/
+software/**/*.o
+software/**/*.d
+
+# Результаты сборки
+software/**/*.elf
+software/**/*.map
+software/**/*.objdump
+software/**/*.a
+
+# Автоматически генерируемые файлы BSP
+software/*_bsp/HAL/
+software/*_bsp/drivers/
+software/*_bsp/alt_sys_init.c
+software/*_bsp/linker.h
+software/*_bsp/linker.x
+software/*_bsp/mem_init.mk
+software/*_bsp/memory.gdb
+software/*_bsp/public.mk
+software/*_bsp/system.h
+software/*_bsp/summary.html
+software/*_bsp/.force_rebuild_all
