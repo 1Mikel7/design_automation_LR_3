@@ -17,3 +17,11 @@ output_files/
 .vscode/
 *.bak
 *~
+
+# Служебные файлы редактора Qsys
+.qsys_edit/
+
+# Вспомогательные файлы генерации Qsys
+nios_system.html
+nios_system.cmp
+nios_system.bsf
