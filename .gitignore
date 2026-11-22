@@ -1,0 +1,19 @@
+# Временные файлы Quartus
+db/
+incremental_db/
+output_files/
+
+# Результаты компиляции и моделирования
+*.sof
+*.pof
+*.rpt
+*.smsg
+*.summary
+*.qws
+*.vcd
+*.fst
+
+# Временные файлы редакторов
+.vscode/
+*.bak
+*~
